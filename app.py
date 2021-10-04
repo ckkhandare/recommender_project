@@ -66,10 +66,10 @@ def add_data(userid,title,rating):
 	c.execute('INSERT INTO blogtable(userid,title,rating) VALUES (?,?,?)',(userid,title,rating))
 	conn.commit()
 
-def view_all_notes():
-	c.execute('SELECT * FROM blogtable')
-	data = c.fetchall()
-	return data
+#def view_all_notes():
+#	c.execute('SELECT * FROM blogtable')
+#	data = c.fetchall()
+#	return data
 
 
 
