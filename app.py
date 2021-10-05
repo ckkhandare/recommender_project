@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import requests
 import sqlite3
-conn = sqlite3.connect('data1.db')
+conn = sqlite3.connect('data.db')
 c = conn.cursor()
 
 
